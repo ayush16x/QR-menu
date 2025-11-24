@@ -1,0 +1,56 @@
+{
+  "name": "smart-menu-maker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "debug-env": "node -e \"console.log('MONGODB_URI =', process.env.MONGODB_URI); console.log('MONGODB_URL =', process.env.MONGODB_URL)\""
+},
+
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/dm-sans": "^5.1.1",
+    "@headlessui/react": "^2.2.0",
+    "@mui/icons-material": "^6.4.1",
+    "@mui/material": "^6.4.1",
+    "@nextui-org/react": "^2.6.11",
+    "@shadcn/ui": "^0.0.4",
+    "@tanstack/react-virtual": "^3.13.0",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "formidable": "^3.5.2",
+    "framer-motion": "^12.4.3",
+    "fs": "^0.0.1-security",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.0",
+    "lucide-react": "^0.475.0",
+    "mongoose": "^8.10.0",
+    "multer": "^1.4.5-lts.1",
+    "next": "^15.1.7",
+    "next-auth": "^4.24.11",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-csv": "^2.2.2",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.5.0",
+    "react-qr-code": "^2.0.15",
+    "react-qrcode-logo": "^3.0.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-toastify": "^11.0.3",
+    "recharts": "^2.15.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
