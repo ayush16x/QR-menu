@@ -52,7 +52,6 @@ Create a `.env` file and add the following:
 NEXTAUTH_URL=your-site-url
 MONGODB_URL=your-mongodb-url
 NEXTAUTH_SECRET=your-secret-key
-//example
 GITHUB_ID=key
 GITHUB_SECRET=key
 GEMINI_URL=key 
@@ -80,7 +79,7 @@ if (status === "unauthenticated") {
 
 
 ## 📜 License
-This project is intended for **educational purposes only**. If you wish to use it for commercial or other purposes, please request **permission**
+If you wish to use it for commercial or other purposes, please request **permission**
 
 ---
 
