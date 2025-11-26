@@ -20,7 +20,7 @@ const dmSans = DM_Sans({
 const playfair = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
-  weight: ["500"],
+  weight: ["501"],
 })
 
 export const metadata = {
